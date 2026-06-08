@@ -15,3 +15,11 @@ print(f"currently living in {city}")
 print(f"im having {experience} in this field")
 print(f"im currently learning python for cybersecurity {is_learning}")
 print(f"{threat_level}")
+print(id(age))
+x = 10
+y = 10
+print(id(x))
+print(id(y))
+a = 1000
+b = 1000
+print(id(a) == id(b))  # False — different objectsN
