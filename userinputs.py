@@ -14,7 +14,7 @@ Ask user for password
 Ask user for age (convert to int)
 Print all 3 using f-string in this format:
 
-[*] User: meo | Age: 21 | Password length: 8
+[*] User: meo | Age: 21 | Password length: 
 
 Hint: len(password) gives you the length.
 
@@ -25,4 +25,5 @@ username = input("Enter your name:")
 password = input("Enter secret code:")
 
 age = int(input("enter your age:"))
-print(f" [*] User: {username} | Age: {age} |  password length: {len(password)}")
+#print(f" [*] User: {username} | Age: {age} |  password length: {len(password)}")
+print(f"[*] User: {username} | Age: {age} | Password length: {len(password)}")
